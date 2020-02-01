@@ -9,10 +9,11 @@
     <parameter name="os_version" value="10.0"/>
     <parameter name="browserName" value="chrome"/>
     <!--    <parameter name="browserVersion" value="79.0"/>-->
-    <parameter name="url" value="https://www.nymag.com/"/>
+    <parameter name="url" value="https://www.youtube.com/"/>
 
-    <test name = "NYMag Home">
+    <test name = "YouTube">
         <classes>
+            <class name="test.YouTubeTest1"></class>
             <!--            <class name="home.BestBuyHome"/>-->
             <!--            <class name="dropdownmenu.TestDropDownMenu"/>-->
             <!--            <class name="search.TestSearch"/>-->
