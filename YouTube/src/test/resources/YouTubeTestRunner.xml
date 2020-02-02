@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Best Buy Automation Script " parallel="false">
+<suite name="YouTube Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -14,9 +14,7 @@
     <test name = "YouTube">
         <classes>
             <class name="test.YouTubeTest1"></class>
-            <!--            <class name="home.BestBuyHome"/>-->
-            <!--            <class name="dropdownmenu.TestDropDownMenu"/>-->
-            <!--            <class name="search.TestSearch"/>-->
+
         </classes>
     </test>
 
