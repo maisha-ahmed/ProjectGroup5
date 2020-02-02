@@ -1,14 +1,17 @@
 package tests;
 
+import common.CommonAPI;
 import homepage.DropDownMenu2;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class NYMagTest10 extends DropDownMenu2
 {
     @Test
     public void CurrentIssueIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnCurrentIssue();
@@ -16,6 +19,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void CrosswordIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnCrossword();
@@ -23,6 +27,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void GiftSubscriptionIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnGiftSubscription();
@@ -30,6 +35,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void TheUrbanistIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnTheUrbanist();
@@ -37,6 +43,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void BestOfNYIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnBestOfNewYork();
@@ -44,6 +51,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void VideosIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnVideos();
@@ -51,6 +59,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void BestDoctorsIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnBestDoctors();
@@ -58,6 +67,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void LegalLeadersIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnLegalLeaders();
@@ -65,6 +75,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void NewslettersIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnNewsletters();
@@ -72,6 +83,7 @@ public class NYMagTest10 extends DropDownMenu2
     @Test
     public void AboutIconHover()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
         element.clickOnBurgerIcon();
         element.hoverOnAbout();

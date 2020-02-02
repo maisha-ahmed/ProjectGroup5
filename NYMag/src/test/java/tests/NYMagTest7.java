@@ -1,14 +1,17 @@
 package tests;
 
+import common.CommonAPI;
 import homepage.DropDownMenu;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class NYMagTest7 extends DropDownMenu
 {
     @Test
     public void testClickOnCurrentIssue()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnCurrentIssue();
@@ -16,6 +19,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnCrossword()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnCrossword();
@@ -24,6 +28,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnGiftSubscription()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnGiftSubscriptions();
@@ -32,6 +37,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnTheUrbanist()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnTheUrbanist();
@@ -39,6 +45,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnBestOfNewYork()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnBestOfNewYork();
@@ -46,6 +53,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnVideos()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnVideos();
@@ -53,6 +61,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnBestDoctors()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnBestDoctors();
@@ -60,6 +69,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnLegalLeaders()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnLegalLeaders();
@@ -67,6 +77,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnNewsletters()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnNewsletters();
@@ -74,6 +85,7 @@ public class NYMagTest7 extends DropDownMenu
     @Test
     public void testClickOnAbout()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnAbout();
