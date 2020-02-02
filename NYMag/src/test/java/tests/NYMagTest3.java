@@ -1,14 +1,17 @@
 package tests;
 
+import common.CommonAPI;
 import homepage.NYMagSignUp;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class NYMagTest3 extends NYMagSignUp
 {
     @Test
     public void testThatYouCannotSignUpWithAnInvalidEmail()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         NYMagSignUp signUp = PageFactory.initElements(driver, NYMagSignUp.class);
         signUp.typeEmailName("pnt.com");
         signUp.clickOnSubmit();
@@ -16,6 +19,7 @@ public class NYMagTest3 extends NYMagSignUp
     @Test
     public void testThatYouCanSignUpWithValidEmail()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         NYMagSignUp signUp = PageFactory.initElements(driver, NYMagSignUp.class);
         signUp.typeEmailName("tom@pnt.com");
         signUp.clickOnSubmit();
@@ -23,12 +27,14 @@ public class NYMagTest3 extends NYMagSignUp
     @Test
     public void testThatSubscribeBtnWorks()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         NYMagSignUp subscribeBtn = PageFactory.initElements(driver, NYMagSignUp.class);
         subscribeBtn.clickOnSubscribeBtn();
     }
     @Test
     public void testThatUserCannotSignInWithInvalidCredentials()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         NYMagSignUp signIn = PageFactory.initElements(driver, NYMagSignUp.class);
         signIn.clickOnUserSignInBtn();
         signIn.typeEmailName("mpnt.com");
@@ -38,6 +44,7 @@ public class NYMagTest3 extends NYMagSignUp
     @Test
     public void testThatUserCanSignInWithValidCredentials()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         NYMagSignUp signIn = PageFactory.initElements(driver, NYMagSignUp.class);
         signIn.clickOnUserSignInBtn();
         signIn.typeEmailName("m@pnt.com");
@@ -47,6 +54,7 @@ public class NYMagTest3 extends NYMagSignUp
     @Test
     public void testThatUserCannotSignInWithoutEmail()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         NYMagSignUp signIn = PageFactory.initElements(driver, NYMagSignUp.class);
         signIn.clickOnUserSignInBtn();
         signIn.typeUserPassword("Abcd1234!");
@@ -55,6 +63,7 @@ public class NYMagTest3 extends NYMagSignUp
     @Test
     public void testThatUserCannotSignInWithoutPassword()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         NYMagSignUp signIn = PageFactory.initElements(driver, NYMagSignUp.class);
         signIn.clickOnUserSignInBtn();
         signIn.typeEmailName("m@pnt.com");
