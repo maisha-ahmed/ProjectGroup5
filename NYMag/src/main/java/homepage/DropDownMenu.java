@@ -65,27 +65,32 @@ public class DropDownMenu extends CommonAPI
     public void clickOnIntelligencer()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        clickOnElement("a[href='http://nymag.com/intelligencer/politics/']");
+        clickOnBurgerIcon();
+        clickOnElement("//h2[text()='Intelligencer']");
     }
     public void clickOnPolitics()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        clickOnElement("a[href='http://nymag.com/intelligencer/politics/']");
+        clickOnBurgerIcon();
+        clickOnElement("//a[text()='Politics']");
     }
     public void clickOnTechnology()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        clickOnElement("a[href='http://nymag.com/intelligencer/tech/']");
+        clickOnBurgerIcon();
+        clickOnElement("//a[text()='Technology']");
     }
     public void clickOnBusiness()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        clickOnElement("a[href='http://nymag.com/intelligencer/business/']");
+        clickOnBurgerIcon();
+        clickOnElement("//a[text()='Business']");
     }
     public void clickOnIdeas()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        clickOnElement("a[href='http://nymag.com/intelligencer/ideas/']");
+        clickOnBurgerIcon();
+        clickOnElement("//a[text()='Ideas']");
     }
     //--------------------------------------------------------------------------------------------
 

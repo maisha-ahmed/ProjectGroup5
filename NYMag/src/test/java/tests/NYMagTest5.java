@@ -120,5 +120,38 @@ public class NYMagTest5 extends DropDownMenu
         element.clickOnBurgerIcon();
         element.clickOnStream();
     }
+    @Test
+    public void testClickOnTravel()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnTravel();
+    }
+    @Test
+    public void testClickOnElectronics()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnElectronics();
+    }
+    @Test
+    public void testClickOnFitness()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnFitness();
+    }
+    @Test
+    public void testClickOnKids()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnKids();
+    }
+
 
 }

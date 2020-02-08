@@ -13,22 +13,26 @@ public class DropDownMenu2 extends CommonAPI
     public void hoverOnPolitics()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mouseHoverByCSS("a[href='http://nymag.com/intelligencer/politics/']");
+        clickOnBurgerIcon();
+        mouseHoverByXpath("//a[text()='Politics']");
     }
     public void hoverOnTechnology()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mouseHoverByCSS("a[href='http://nymag.com/intelligencer/politics/']");
+        clickOnBurgerIcon();
+        mouseHoverByXpath("//a[text()='Technology']");
     }
     public void hoverOnBusiness()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mouseHoverByCSS("a[href='http://nymag.com/intelligencer/business/']");
+        clickOnBurgerIcon();
+        mouseHoverByXpath("//a[text()='Business']");
     }
     public void hoverOnIdeas()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mouseHoverByCSS("a[href='http://nymag.com/intelligencer/ideas/']");
+        clickOnBurgerIcon();
+        mouseHoverByXpath("//a[text()='Ideas']");
     }
     //-------------------------------------------------------------------------------------------
     public void hoverOnStyle()
