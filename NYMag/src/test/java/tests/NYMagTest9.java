@@ -1,6 +1,5 @@
 package tests;
 
-import common.CommonAPI;
 import homepage.DropDownMenu2;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -13,7 +12,6 @@ public class NYMagTest9 extends DropDownMenu2
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
-        element.clickOnBurgerIcon();
         element.hoverOnPolitics();
     }
     @Test
@@ -21,7 +19,6 @@ public class NYMagTest9 extends DropDownMenu2
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
-        element.clickOnBurgerIcon();
         element.hoverOnTechnology();
     }
     @Test
@@ -29,7 +26,6 @@ public class NYMagTest9 extends DropDownMenu2
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
-        element.clickOnBurgerIcon();
         element.hoverOnBusiness();
     }
     @Test
@@ -37,7 +33,6 @@ public class NYMagTest9 extends DropDownMenu2
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
-        element.clickOnBurgerIcon();
         element.hoverOnIdeas();
     }
     @Test
@@ -248,5 +243,4 @@ public class NYMagTest9 extends DropDownMenu2
         element.clickOnBurgerIcon();
         element.hoverOnKids();
     }
-
 }
