@@ -36,7 +36,6 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI
 {
-
     //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
@@ -57,7 +56,7 @@ public class CommonAPI
         t.printStackTrace(pw);
         return sw.toString();
     }
-    @AfterMethod
+    @AfterMethod        
     public void afterEachTestMethod(ITestResult result) {
         ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
         ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
@@ -91,7 +90,6 @@ public class CommonAPI
     }
 
     //Browser setup
-
     public static WebDriver driver = null;
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
@@ -102,7 +100,7 @@ public class CommonAPI
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
+                              String browserVersion, @Optional("http://www.uhc.com") String url)throws IOException {
         //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -262,7 +260,6 @@ public class CommonAPI
         }
 
     }
-
    public static String convertToString(String st) {
         String splitString = "";
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
@@ -527,6 +524,9 @@ public class CommonAPI
         } catch (Exception ex3) {
             System.out.println("CSS locator didn't work");
         }
+
+
     }
+
 
 }

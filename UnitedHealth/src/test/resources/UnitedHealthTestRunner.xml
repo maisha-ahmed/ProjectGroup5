@@ -11,9 +11,17 @@
     <parameter name="browserVersion" value="79.0"/>
     <parameter name="url" value="https://www.uhc.com"/>
 
-    <test name = "United Health Home">
+    <test name = "UnitedHealthCareHome">
         <classes>
-            <class name="home.UnitedHealthCare"/>
+            <class name="home.AdditionalInsurancePlans"/>
+            <class name="home.CareerTest"/>
+            <class name="home.ProductsTest"/>
+            <class name="home.SearchButtonTest"/>
+            <class name="home.UnitedHealthCareTest"/>
+            <class name="home.HealthyLiving"/>
+
+
+
         </classes>
     </test>
 
