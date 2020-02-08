@@ -104,5 +104,44 @@ public class NYMagTest6 extends DropDownMenu
         element.clickOnBurgerIcon();
         element.clickOnKids();
     }
-
+    @Test
+    public void testClickOnCulture()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnCulture();
+    }
+    @Test
+    public void testClickOnPower()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnPower();
+    }
+    @Test
+    public void testClickOnDesignHunting()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnDesignHunting();
+    }
+    @Test
+    public void testClickOnWeddings()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnWeddings();
+    }
+    @Test
+    public void testClickOnTV()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
+        element.clickOnBurgerIcon();
+        element.clickOnTV();
+    }
 }

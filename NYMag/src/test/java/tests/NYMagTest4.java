@@ -1,6 +1,5 @@
 package tests;
 
-import common.CommonAPI;
 import homepage.DropDownMenu;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -49,7 +48,6 @@ public class NYMagTest4 extends DropDownMenu
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
-        element.clickOnBurgerIcon();
         element.clickOnIntelligencer();
     }
     @Test
@@ -57,7 +55,6 @@ public class NYMagTest4 extends DropDownMenu
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
-        element.clickOnBurgerIcon();
         element.clickOnPolitics();
     }
     @Test
@@ -65,7 +62,6 @@ public class NYMagTest4 extends DropDownMenu
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
-        element.clickOnBurgerIcon();
         element.clickOnTechnology();
     }
     @Test
@@ -73,7 +69,6 @@ public class NYMagTest4 extends DropDownMenu
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
-        element.clickOnBurgerIcon();
         element.clickOnBusiness();
     }
     @Test
@@ -81,7 +76,6 @@ public class NYMagTest4 extends DropDownMenu
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
-        element.clickOnBurgerIcon();
         element.clickOnIdeas();
     }
 

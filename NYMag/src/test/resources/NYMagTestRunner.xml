@@ -13,16 +13,16 @@
 
     <test name = "NYMag Home">
         <classes>
-<!--            <class name="tests.NYMagTest"/>-->
-<!--            <class name="tests.NYMagTest2"/>-->
-<!--            <class name="tests.NYMagTest3"/>-->
-<!--            <class name="tests.NYMagTest4"/>-->
-<!--            <class name="tests.NYMagTest5"/>-->
-<!--            <class name="tests.NYMagTest6"/>-->
-<!--            <class name="tests.NYMagTest7"/>-->
+            <class name="tests.NYMagTest"/>
+            <class name="tests.NYMagTest2"/>
+            <class name="tests.NYMagTest3"/>
+            <class name="tests.NYMagTest4"/>
+            <class name="tests.NYMagTest5"/>
+            <class name="tests.NYMagTest6"/>
+            <class name="tests.NYMagTest7"/>
             <class name="tests.NYMagTest8"/>
-<!--            <class name="tests.NYMagTest9"/>-->
-<!--            <class name="tests.NYMagTest10"/>-->
+            <class name="tests.NYMagTest9"/>
+            <class name="tests.NYMagTest10"/>
         </classes>
     </test>
 

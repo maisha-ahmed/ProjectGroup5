@@ -73,6 +73,46 @@ public class NYMagTest10 extends DropDownMenu2
         element.hoverOnLegalLeaders();
     }
     @Test
+    public void StreamIconHover()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
+        element.clickOnBurgerIcon();
+        element.hoverOnStream();
+    }
+    @Test
+    public void RestaurantAndBarsIconHover()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
+        element.clickOnBurgerIcon();
+        element.hoverOnRestaurantAndBars();
+    }
+    @Test
+    public void ThousandBestIconHover()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
+        element.clickOnBurgerIcon();
+        element.hoverOnThousandBest();
+    }
+    @Test
+    public void GiftGuidesIconHover()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
+        element.clickOnBurgerIcon();
+        element.hoverOnGiftGuides();
+    }
+    @Test
+    public void SalesIconHover()
+    {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        DropDownMenu2 element = PageFactory.initElements(driver, DropDownMenu2.class);
+        element.clickOnBurgerIcon();
+        element.hoverOnSales();
+    }
+    @Test
     public void NewslettersIconHover()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
