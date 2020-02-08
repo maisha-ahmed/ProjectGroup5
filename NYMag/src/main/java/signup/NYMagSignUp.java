@@ -1,4 +1,4 @@
-package homepage;
+package signup;
 
 import common.CommonAPI;
 import org.openqa.selenium.WebElement;
