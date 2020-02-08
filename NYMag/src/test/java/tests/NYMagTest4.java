@@ -1,6 +1,6 @@
 package tests;
 
-import homepage.DropDownMenu;
+import dropdownmenu.DropDownMenu;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.TestLogger;

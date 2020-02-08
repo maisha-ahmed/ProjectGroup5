@@ -1,7 +1,6 @@
 package tests;
 
-import common.CommonAPI;
-import homepage.NYMagSignUp;
+import signup.NYMagSignUp;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
