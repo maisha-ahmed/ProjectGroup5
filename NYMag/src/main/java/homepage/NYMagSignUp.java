@@ -4,6 +4,7 @@ import common.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 public class NYMagSignUp extends CommonAPI
 {
@@ -25,53 +26,65 @@ public class NYMagSignUp extends CommonAPI
     @FindBy(how = How.CSS, using = ".auth0-label-submit")
     public static WebElement clickOnSignInBtnWebElement;
 
-    public static WebElement getEnterEmailWebElement()
+    public WebElement getEnterEmailWebElement()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return enterEmailWebElement;
     }
-    public static WebElement getClickOnSubmitBtnWebElement()
+    public WebElement getClickOnSubmitBtnWebElement()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return clickOnSubmitBtnWebElement;
     }
-    public static WebElement getClickOnSubscribeBtn()
+    public WebElement getClickOnSubscribeBtn()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return clickOnSubscribeBtn;
     }
-    public static WebElement getClickOnUserSignInBtn()
+    public WebElement getClickOnUserSignInBtn()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return clickOnUserSignInBtn;
     }
-    public static WebElement getEnterPassword()
+    public WebElement getEnterPassword()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return enterPassword;
     }
-    public static WebElement getClickOnSignInBtnWebElement()
+    public WebElement getClickOnSignInBtnWebElement()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return clickOnSignInBtnWebElement;
     }
 
     public void typeEmailName(String value)
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getEnterEmailWebElement().sendKeys(value);
     }
     public void clickOnSubmit()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getClickOnSubmitBtnWebElement().click();
     }
     public void clickOnSubscribeBtn()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getClickOnSubscribeBtn().click();
     }
     public void clickOnUserSignInBtn()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getClickOnUserSignInBtn().click();
     }
     public void typeUserPassword(String value)
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getEnterPassword().sendKeys(value);
     }
     public void clickOnSignInBtn()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getClickOnSignInBtnWebElement().click();
     }
 

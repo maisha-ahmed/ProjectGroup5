@@ -1,14 +1,17 @@
 package tests;
 
+import common.CommonAPI;
 import homepage.DropDownMenu;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class NYMagTest4 extends DropDownMenu
 {
     @Test
     public void testThatSearchBarWorks()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu searchBar = PageFactory.initElements(driver, DropDownMenu.class);
         searchBar.clickOnBurgerIcon();
         searchBar.typeInSearchBar("Bernie Sanders");
@@ -17,6 +20,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testThatYouCannotSearchWithEmptyField()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu searchBar = PageFactory.initElements(driver, DropDownMenu.class);
         searchBar.clickOnBurgerIcon();
         searchBar.typeInSearchBar(" ");
@@ -25,6 +29,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testThatYouCanClearSearchBar()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.typeInSearchBar("Bernie Sanders");
@@ -34,6 +39,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testGetTextFromDropDownMenu()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.getTextDropDown();
@@ -41,6 +47,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testClickOnIntelligencer()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnIntelligencer();
@@ -48,6 +55,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testClickOnPolitics()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnPolitics();
@@ -55,6 +63,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testClickOnTechnology()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnTechnology();
@@ -62,6 +71,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testClickOnBusiness()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnBusiness();
@@ -69,6 +79,7 @@ public class NYMagTest4 extends DropDownMenu
     @Test
     public void testClickOnIdeas()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnIdeas();

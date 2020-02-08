@@ -1,14 +1,17 @@
 package tests;
 
+import common.CommonAPI;
 import homepage.DropDownMenu;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class NYMagTest6 extends DropDownMenu
 {
     @Test
     public void testClickOnRestaurantsAndBars()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnRestaurantsAndBars();
@@ -16,6 +19,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnThousandBest()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnThousandBest();
@@ -23,6 +27,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnGiftGuides()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnGiftGuides();
@@ -30,6 +35,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnSales()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnSales();
@@ -37,6 +43,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnBeauty()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnBeauty();
@@ -44,6 +51,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnHome()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnHome();
@@ -51,6 +59,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnDining()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnDining();
@@ -58,6 +67,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnFashion()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnFashion();
@@ -65,6 +75,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnTravel()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnTravel();
@@ -72,6 +83,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnElectronics()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnElectronics();
@@ -79,6 +91,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnFitness()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnFitness();
@@ -86,6 +99,7 @@ public class NYMagTest6 extends DropDownMenu
     @Test
     public void testClickOnKids()
     {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         DropDownMenu element = PageFactory.initElements(driver, DropDownMenu.class);
         element.clickOnBurgerIcon();
         element.clickOnKids();

@@ -5,12 +5,12 @@
 
     <parameter name="cloud" value="false"/>
     <parameter name="envName" value="browserstack"/>
-    <parameter name="os" value="OS X"/>
-    <parameter name="os_version" value="Mojave"/>
+    <parameter name="os" value="Windows"/>
+<!--    <parameter name="os_version" value="Mojave"/>-->
     <parameter name="browser" value="chrome"/>
     <parameter name="browserVersion" value="79.0"/>
     <parameter name="url" value="https://www.ebay.com"/>
-    <parameter name="platform" value="mac"/>
+<!--    <parameter name="platform" value="mac"/>-->
 
     <test name="Automation tests">
         <classes>

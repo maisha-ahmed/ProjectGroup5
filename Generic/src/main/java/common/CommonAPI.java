@@ -20,7 +20,6 @@ import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -57,10 +56,9 @@ public class CommonAPI
         t.printStackTrace(pw);
         return sw.toString();
     }
-    @AfterMethod
-        public void afterEachTestMethod(ITestResult result) {
-
-            ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+    @AfterMethod        
+    public void afterEachTestMethod(ITestResult result) {
+        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
         ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
 
         for (String group : result.getMethod().getGroups()) {
@@ -80,8 +78,6 @@ public class CommonAPI
             captureScreenshot(driver, result.getName());
         }
         driver.quit();
-
-
     }
     @AfterSuite
     public void generateReport() {
@@ -92,6 +88,8 @@ public class CommonAPI
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
+
+    //Browser setup
     public static WebDriver driver = null;
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
@@ -173,7 +171,7 @@ public class CommonAPI
         return driver;
     }
 
-    @AfterMethod
+    @AfterClass
     public void cleanUp(){
         driver.quit();
     }
@@ -262,11 +260,10 @@ public class CommonAPI
         }
 
     }
-
-    public static String convertToString(String st) {
+   public static String convertToString(String st) {
         String splitString = "";
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
-        return splitString;
+       return splitString;
     }
 
     public static void clickOnElement(String locator, WebDriver driver1) {
