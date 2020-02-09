@@ -294,5 +294,4 @@ public class DropDownMenu extends CommonAPI
         driver.get("https://subs.nymag.com/magazine/subscribe/official-subscription.html");
         clickOnElement("/html/body/section[2]/div/div/div/div/div/div[4]/div/div/div[2]/button/span[1]");
     }
-
 }

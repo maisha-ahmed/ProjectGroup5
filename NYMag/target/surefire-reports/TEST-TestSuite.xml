@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="81.488" tests="117" errors="0" skipped="112" failures="5">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\maish\Desktop\Demo\Group5\NYMag\target\test-classes;C:\Users\maish\Desktop\Demo\Group5\NYMag\target\classes;C:\Users\maish\Desktop\Demo\Group5\Generic\target\Generic-1.0-SNAPSHOT.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\maish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\maish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\maish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\maish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\maish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\maish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\maish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\maish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\maish\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\maish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\maish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\maish\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\maish\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\maish\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\maish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\maish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\maish\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\maish\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\maish\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\maish\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\maish\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\maish\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\maish\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-lang3\3.0\commons-lang3-3.0.jar;C:\Users\maish\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\maish\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Users\maish\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\maish\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\maish\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\maish\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\maish\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\maish\AppData\Local\Temp\surefire15951790090997840064\surefirebooter7727295231933471606.jar C:\Users\maish\AppData\Local\Temp\surefire15951790090997840064 2020-02-08T16-59-14_242-jvmRun1 surefire7339287085900462822tmp surefire_07434656953017174556tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\maish\Desktop\Demo\Group5\NYMag\target\test-classes;C:\Users\maish\Desktop\Demo\Group5\NYMag\target\classes;C:\Users\maish\Desktop\Demo\Group5\Generic\target\Generic-1.0-SNAPSHOT.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\maish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\maish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\maish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\maish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\maish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\maish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\maish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\maish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\maish\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\maish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\maish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\maish\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\maish\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\maish\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\maish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\maish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\maish\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\maish\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\maish\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\maish\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\maish\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\maish\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\maish\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-lang3\3.0\commons-lang3-3.0.jar;C:\Users\maish\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\maish\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Users\maish\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\maish\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\maish\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\maish\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\maish\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\maish"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\maish\Desktop\Demo\Group5\NYMag"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\maish\AppData\Local\Temp\surefire15951790090997840064\surefirebooter7727295231933471606.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="maish"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\maish\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\maish\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="C:\Users\maish\Desktop\Demo\Group5\NYMag"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\maish\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="idea.version2019.3" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="20.973">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WINDOWS-HIDHT5B', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:48823/status] to be available after 20004 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-out><![CDATA[Extent Report DirectoryC:\Users\maish\Desktop\Demo\Group5\NYMag\target\surefire-reports\html
+]]></system-out>
+    <system-err><![CDATA[Feb 08, 2020 4:59:36 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\maish\Desktop\Demo\Group5\Generic\browser-driver\chromedriver" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClickOnBusiness" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClickOnIdeas" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testClickOnIntelligencer" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testClickOnPolitics" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testClickOnTechnology" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testGetTextFromDropDownMenu" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatSearchBarWorks" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatYouCanClearSearchBar" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatYouCannotSearchWithEmptyField" classname="tests.DropDownMenuTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="cleanUp" classname="tests.DropDownMenuTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.HomepageTest" time="20.021">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WINDOWS-HIDHT5B', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:22994/status] to be available after 20001 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-err><![CDATA[Feb 08, 2020 4:59:56 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\maish\Desktop\Demo\Group5\Generic\browser-driver\chromedriver" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnBurgerIcon" classname="tests.HomepageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="grubStreetTab" classname="tests.HomepageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="intelligencerTabs" classname="tests.HomepageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="strategistTab" classname="tests.HomepageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="theCutTabs" classname="tests.HomepageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="vultureTabs" classname="tests.HomepageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="cleanUp" classname="tests.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.NYMagTest" time="20.032">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WINDOWS-HIDHT5B', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:25391/status] to be available after 20001 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-err><![CDATA[Feb 08, 2020 5:00:16 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\maish\Desktop\Demo\Group5\Generic\browser-driver\chromedriver" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnBurgerIcon" classname="tests.NYMagTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="grubStreetTab" classname="tests.NYMagTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="intelligencerTabs" classname="tests.NYMagTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="strategistTab" classname="tests.NYMagTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="theCutTabs" classname="tests.NYMagTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="vultureTabs" classname="tests.NYMagTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="cleanUp" classname="tests.NYMagTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.SignUpTest" time="20.035">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WINDOWS-HIDHT5B', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:27894/status] to be available after 20004 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-err><![CDATA[Feb 08, 2020 5:00:36 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\maish\Desktop\Demo\Group5\Generic\browser-driver\chromedriver" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatSubscribeBtnWorks" classname="tests.SignUpTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatUserCanSignInWithValidCredentials" classname="tests.SignUpTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatUserCannotSignInWithInvalidCredentials" classname="tests.SignUpTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatUserCannotSignInWithoutEmail" classname="tests.SignUpTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatUserCannotSignInWithoutPassword" classname="tests.SignUpTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatYouCanSignUpWithValidEmail" classname="tests.SignUpTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="testThatYouCannotSignUpWithAnInvalidEmail" classname="tests.SignUpTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WINDOWS-HIDHT5B&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="cleanUp" classname="tests.SignUpTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="generateReport" classname="tests.DropDownMenuTest" time="0.132">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+</testsuite>
