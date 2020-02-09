@@ -79,14 +79,10 @@
                 <version>3.0.0-M3</version>
                 <configuration>
 <!--                    <suiteXmlFiles>-->
-<!--                        <suiteXmlFiles>java/resources/eBayTestRunner.xml</suiteXmlFiles>-->
-
+<!--                        <suiteXmlFiles>NYMag/src/test/resources/NYMagTestRunner.xml</suiteXmlFiles>-->
 <!--                    </suiteXmlFiles>-->
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
-
-
 </project>
