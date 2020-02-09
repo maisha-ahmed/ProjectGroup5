@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.NYMagTest">
+        <methods>
+          <include name="clickOnBurgerIcon"/>
+          <include name="setUp"/>
+          <include name="strategistTab"/>
+          <include name="intelligencerTabs"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="vultureTabs"/>
+          <include name="grubStreetTab"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="theCutTabs"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- tests.NYMagTest -->
+      <class name="tests.DropDownMenuTest">
+        <methods>
+          <include name="testThatYouCannotSearchWithEmptyField"/>
+          <include name="extentSetup"/>
+          <include name="testClickOnIntelligencer"/>
+          <include name="testThatSearchBarWorks"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="testThatYouCanClearSearchBar"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testClickOnTechnology"/>
+          <include name="testClickOnPolitics"/>
+          <include name="testGetTextFromDropDownMenu"/>
+          <include name="cleanUp"/>
+          <include name="testClickOnIdeas"/>
+          <include name="testClickOnBusiness"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- tests.DropDownMenuTest -->
+      <class name="tests.HomepageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="theCutTabs"/>
+          <include name="vultureTabs"/>
+          <include name="extentSetup"/>
+          <include name="grubStreetTab"/>
+          <include name="afterEachTestMethod"/>
+          <include name="strategistTab"/>
+          <include name="intelligencerTabs"/>
+          <include name="clickOnBurgerIcon"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- tests.HomepageTest -->
+      <class name="tests.SignUpTest">
+        <methods>
+          <include name="testThatYouCannotSignUpWithAnInvalidEmail"/>
+          <include name="extentSetup"/>
+          <include name="testThatYouCanSignUpWithValidEmail"/>
+          <include name="testThatSubscribeBtnWorks"/>
+          <include name="testThatUserCannotSignInWithoutEmail"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testThatUserCannotSignInWithInvalidCredentials"/>
+          <include name="cleanUp"/>
+          <include name="testThatUserCanSignInWithValidCredentials"/>
+          <include name="testThatUserCannotSignInWithoutPassword"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- tests.SignUpTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
