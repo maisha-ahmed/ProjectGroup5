@@ -87,5 +87,4 @@ public class NYMagSignUp extends CommonAPI
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getClickOnSignInBtnWebElement().click();
     }
-
 }

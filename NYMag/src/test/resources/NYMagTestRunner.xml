@@ -3,7 +3,7 @@
 
 <suite name="NYMag Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
@@ -13,16 +13,17 @@
 
     <test name = "NYMag Home">
         <classes>
-            <class name="tests.HomepageTest"/>
-            <class name="tests.HomepageTest2"/>
-            <class name="tests.SignUpTest"/>
-            <class name="tests.DropDownMenuTest"/>
-            <class name="tests.NYMagTest5"/>
-            <class name="tests.NYMagTest6"/>
-            <class name="tests.NYMagTest7"/>
-            <class name="tests.NYMagTest8"/>
-            <class name="tests.NYMagTest9"/>
-            <class name="tests.NYMagTest10"/>
+            <class name="testhomepage.HomepageTest"/>
+            <class name="testhomepage.HomepageTest2"/>
+            <class name="testsignup.SignUpTest"/>
+            <class name="testdropdownmenu.DropDownMenuTest"/>
+            <class name="testdropdownmenu.TestDropDown"/>
+            <class name="testdropdownmenu.TestDropDown2"/>
+            <class name="testdropdownmenu.TestDropDown3"/>
+            <class name="testgiftsubscriptions.TestGiftSubscription"/>
+            <class name="testdropdownmenu.TestDropDownMenu"/>
+            <class name="testdropdownmenu.TestDropDownMenuContinued"/>
+            <class name="keywordtests.TestKeyword"/>
         </classes>
     </test>
 </suite>
