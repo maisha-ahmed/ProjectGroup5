@@ -44,6 +44,14 @@
             <groupId>org.apache.maven</groupId>
             <artifactId>maven-artifact-manager</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -60,14 +68,12 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
-<!--                    <suiteXmlFiles>-->
-<!--                        <suiteXmlFiles>NYMag/src/test/resources/NYMagTestRunner.xml</suiteXmlFiles>-->
-<!--                    </suiteXmlFiles>-->
+                    <suiteXmlFiles>
+                        <suiteXmlFiles>target/test-classes/NYMagTestRunner.xml</suiteXmlFiles>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
-
 
 </project>

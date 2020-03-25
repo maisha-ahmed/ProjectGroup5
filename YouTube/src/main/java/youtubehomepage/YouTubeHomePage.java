@@ -2,9 +2,12 @@ package youtubehomepage;
 
 import common.CommonAPI;
 
-public class YouTubeHomePage extends CommonAPI {
-
-    public void clickOnHamburger(){ clickOnElement("#guide-icon");}
+public class YouTubeHomePage extends CommonAPI
+{
+    public void clickOnHamburger()
+    {
+        clickOnElement("#guide-icon");
+    }
 
     public void clickOnHomeIcon(){
         clickOnElement("//span[text() = 'Home']");

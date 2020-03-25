@@ -13,7 +13,7 @@
 
     <test name = "YouTube">
         <classes>
-            <class name="test.YouTubeTest1"></class>
+            <class name="test.YouTubeTest1"/>
 
         </classes>
     </test>
