@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\maish\Desktop\Demo\Group5\Staples\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-03-27T21:26:37 EDT" name="Staples Automation Script " finished-at="2020-03-27T21:29:02 EDT" duration-ms="145395">
+    <groups>
+    </groups>
+    <test started-at="2020-03-27T21:26:37 EDT" name="Staples Test" finished-at="2020-03-27T21:29:02 EDT" duration-ms="145395">
+      <class name="tests.StaplesTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:26:37 EDT" name="extentSetup" finished-at="2020-03-27T21:26:37 EDT" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@109a2025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\maish\Desktop\Demo\Group5\Staples\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:26:37 EDT" name="setUp" finished-at="2020-03-27T21:26:47 EDT" duration-ms="9789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:26:47 EDT" name="startExtent" finished-at="2020-03-27T21:26:47 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testClickOnCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnCart()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:26:47 EDT" name="testClickOnCart" finished-at="2020-03-27T21:26:53 EDT" duration-ms="6287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnCart -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:26:53 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:26:54 EDT" duration-ms="1492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnCart status=SUCCESS method=StaplesTest.testClickOnCart()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:26:54 EDT" name="setUp" finished-at="2020-03-27T21:27:04 EDT" duration-ms="9543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClickOnContinueShopping()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:04 EDT" name="testClickOnContinueShopping" finished-at="2020-03-27T21:27:24 EDT" duration-ms="19876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnContinueShopping -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:04 EDT" name="startExtent" finished-at="2020-03-27T21:27:04 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testClickOnContinueShopping()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:24 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:27:25 EDT" duration-ms="1260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnContinueShopping status=SUCCESS method=StaplesTest.testClickOnContinueShopping()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:25 EDT" name="setUp" finished-at="2020-03-27T21:27:35 EDT" duration-ms="9852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:35 EDT" name="startExtent" finished-at="2020-03-27T21:27:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testClickOnDeals()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnDeals()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:35 EDT" name="testClickOnDeals" finished-at="2020-03-27T21:27:37 EDT" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnDeals -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:37 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:27:39 EDT" duration-ms="2058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnDeals status=SUCCESS method=StaplesTest.testClickOnDeals()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:39 EDT" name="setUp" finished-at="2020-03-27T21:27:48 EDT" duration-ms="9200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:48 EDT" name="startExtent" finished-at="2020-03-27T21:27:48 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testClickOnMembership()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnMembership()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:48 EDT" name="testClickOnMembership" finished-at="2020-03-27T21:27:52 EDT" duration-ms="4277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnMembership -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:52 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:27:53 EDT" duration-ms="1172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnMembership status=SUCCESS method=StaplesTest.testClickOnMembership()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:27:53 EDT" name="setUp" finished-at="2020-03-27T21:28:04 EDT" duration-ms="10936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:04 EDT" name="startExtent" finished-at="2020-03-27T21:28:04 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testClickOnProducts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnProducts()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:04 EDT" name="testClickOnProducts" finished-at="2020-03-27T21:28:06 EDT" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnProducts -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:06 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:28:07 EDT" duration-ms="997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnProducts status=SUCCESS method=StaplesTest.testClickOnProducts()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:07 EDT" name="setUp" finished-at="2020-03-27T21:28:18 EDT" duration-ms="10917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:18 EDT" name="startExtent" finished-at="2020-03-27T21:28:18 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testClickOnServicesAndSolutions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnServicesAndSolutions()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:18 EDT" name="testClickOnServicesAndSolutions" finished-at="2020-03-27T21:28:19 EDT" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnServicesAndSolutions -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:19 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:28:21 EDT" duration-ms="2237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnServicesAndSolutions status=SUCCESS method=StaplesTest.testClickOnServicesAndSolutions()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:21 EDT" name="setUp" finished-at="2020-03-27T21:28:29 EDT" duration-ms="7520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:29 EDT" name="startExtent" finished-at="2020-03-27T21:28:29 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testHoverOnHelp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testHoverOnHelp()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:29 EDT" name="testHoverOnHelp" finished-at="2020-03-27T21:28:29 EDT" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverOnHelp -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:29 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:28:30 EDT" duration-ms="832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHoverOnHelp status=SUCCESS method=StaplesTest.testHoverOnHelp()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:30 EDT" name="setUp" finished-at="2020-03-27T21:28:38 EDT" duration-ms="8146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:38 EDT" name="startExtent" finished-at="2020-03-27T21:28:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testHoverOnReorderBtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testHoverOnReorderBtn()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:38 EDT" name="testHoverOnReorderBtn" finished-at="2020-03-27T21:28:38 EDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverOnReorderBtn -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:38 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:28:39 EDT" duration-ms="767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHoverOnReorderBtn status=SUCCESS method=StaplesTest.testHoverOnReorderBtn()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:39 EDT" name="setUp" finished-at="2020-03-27T21:28:48 EDT" duration-ms="8836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHoverOnSignIn()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:48 EDT" name="testHoverOnSignIn" finished-at="2020-03-27T21:28:48 EDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverOnSignIn -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:48 EDT" name="startExtent" finished-at="2020-03-27T21:28:48 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testHoverOnSignIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:48 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:28:49 EDT" duration-ms="812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHoverOnSignIn status=SUCCESS method=StaplesTest.testHoverOnSignIn()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:49 EDT" name="setUp" finished-at="2020-03-27T21:28:58 EDT" duration-ms="9516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.staples.com//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:58 EDT" name="startExtent" finished-at="2020-03-27T21:28:58 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.StaplesTest.testSearchBar()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testSearchBar()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:28:58 EDT" name="testSearchBar" finished-at="2020-03-27T21:29:01 EDT" duration-ms="2669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBar -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:29:01 EDT" name="afterEachTestMethod" finished-at="2020-03-27T21:29:02 EDT" duration-ms="1417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBar status=SUCCESS method=StaplesTest.testSearchBar()[pri:0, instance:tests.StaplesTest@5552768b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:29:02 EDT" name="cleanUp" finished-at="2020-03-27T21:29:02 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:tests.StaplesTest@5552768b]" started-at="2020-03-27T21:29:02 EDT" name="generateReport" finished-at="2020-03-27T21:29:02 EDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- tests.StaplesTest -->
+    </test> <!-- Staples Test -->
+  </suite> <!-- Staples Automation Script  -->
+</testng-results>

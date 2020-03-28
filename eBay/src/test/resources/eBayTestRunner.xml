@@ -14,14 +14,11 @@
 
     <test name="Automation tests">
         <classes>
-            <class name="base.HomePage"/>
-            <class name="base.Registration"/>
+<!--            <class name="base.HomePage"/>-->
+<!--            <class name="base.Registration"/>-->
             <class name="test.TestClass"/>
-            <class name="dropdownsearch.Antiques"/>
-            <class name="opennewtab.NewTab"/>
-
-
-
+<!--            <class name="dropdownsearch.Antiques"/>-->
+<!--            <class name="opennewtab.NewTab"/>-->
         </classes>
     </test>
 </suite>

@@ -88,10 +88,15 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M1</version>
+                <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>target/test-classes/NYMagTestRunner.xml</suiteXmlFiles>
+                        <suiteXmlFile>target/test-classes/NYMagTestRunner.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>target/test-classes/eBayTestRunner.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>target/test-classes/ParaBankTestRunner.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>target/test-classes/StaplesTestRunner.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>target/test-classes/UnitedHealthTestRunner.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>target/test-classes/YouTubeTestRunner.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

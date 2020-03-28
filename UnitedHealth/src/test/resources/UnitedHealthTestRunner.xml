@@ -13,12 +13,12 @@
 
     <test name = "UnitedHealthCareHome">
         <classes>
-            <class name="home.AdditionalInsurancePlans"/>
+<!--            <class name="home.AdditionalInsurancePlans"/>-->
             <class name="home.CareerTest"/>
-            <class name="home.ProductsTest"/>
-            <class name="home.SearchButtonTest"/>
-            <class name="home.UnitedHealthCareTest"/>
-            <class name="home.HealthyLiving"/>
+<!--            <class name="home.ProductsTest"/>-->
+<!--            <class name="home.SearchButtonTest"/>-->
+<!--            <class name="home.UnitedHealthCareTest"/>-->
+<!--            <class name="home.HealthyLiving"/>-->
 
 
 

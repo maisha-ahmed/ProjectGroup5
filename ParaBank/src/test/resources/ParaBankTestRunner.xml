@@ -13,12 +13,12 @@
 
     <test name = "ParaBank">
         <classes>
-            <class name="test.ParaBankTest"></class>
-            <class name="test.ParaBankTest2"></class>
-            <class name="test.ParaBankTest3"></class>
-            <class name="test.ParaBankTest4"></class>
-            <class name="test.SignInTest"></class>
-            <class name="test.SignInTest2"></class>
+            <class name="test.ParaBankTest"/>
+<!--            <class name="test.ParaBankTest2"></class>-->
+<!--            <class name="test.ParaBankTest3"></class>-->
+<!--            <class name="test.ParaBankTest4"></class>-->
+<!--            <class name="test.SignInTest"></class>-->
+<!--            <class name="test.SignInTest2"></class>-->
 
 
 
