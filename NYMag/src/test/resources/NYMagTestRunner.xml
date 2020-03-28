@@ -13,17 +13,17 @@
 
     <test name = "NYMag Home">
         <classes>
-<!--            <class name="testhomepage.HomepageTest"/>-->
-<!--            <class name="testhomepage.HomepageTest2"/>-->
+            <class name="testhomepage.HomepageTest"/>
+            <class name="testhomepage.HomepageTest2"/>
             <class name="testsignup.SignUpTest"/>
-<!--            <class name="testdropdownmenu.DropDownMenuTest"/>-->
-<!--            <class name="testdropdownmenu.TestDropDown"/>-->
-<!--            <class name="testdropdownmenu.TestDropDown2"/>-->
-<!--            <class name="testdropdownmenu.TestDropDown3"/>-->
-<!--            <class name="testgiftsubscriptions.TestGiftSubscription"/>-->
-<!--            <class name="testdropdownmenu.TestDropDownMenu"/>-->
-<!--            <class name="testdropdownmenu.TestDropDownMenuContinued"/>-->
-<!--            <class name="keywordtests.TestKeyword"/>-->
+            <class name="testdropdownmenu.DropDownMenuTest"/>
+            <class name="testdropdownmenu.TestDropDown"/>
+            <class name="testdropdownmenu.TestDropDown2"/>
+            <class name="testdropdownmenu.TestDropDown3"/>
+            <class name="testgiftsubscriptions.TestGiftSubscription"/>
+            <class name="testdropdownmenu.TestDropDownMenu"/>
+            <class name="testdropdownmenu.TestDropDownMenuContinued"/>
+            <class name="keywordtests.TestKeyword"/>
         </classes>
     </test>
 </suite>
