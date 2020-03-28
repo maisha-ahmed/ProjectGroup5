@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,969.957" tests="121" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="61.819" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
-    <property name="sun.java.command" value="C:\Users\maish\AppData\Local\Temp\surefire4746950893890539068\surefirebooter7609426063211163981.jar C:\Users\maish\AppData\Local\Temp\surefire4746950893890539068 2020-03-10T23-02-44_224-jvmRun1 surefire15984346743881802875tmp surefire_06330457879666503824tmp"/>
+    <property name="sun.java.command" value="C:\Users\maish\AppData\Local\Temp\surefire17330464022361458486\surefirebooter6416329230982006864.jar C:\Users\maish\AppData\Local\Temp\surefire17330464022361458486 2020-03-27T22-27-47_160-jvmRun1 surefire9945853714112503172tmp surefire_07338220213984478128tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\maish\Desktop\Demo\Group5\NYMag\target\test-classes;C:\Users\maish\Desktop\Demo\Group5\NYMag\target\classes;C:\Users\maish\.m2\repository\org\group5\Generic\1.0-SNAPSHOT\Generic-1.0-SNAPSHOT.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\maish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\maish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\maish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\maish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\maish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\maish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\maish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\maish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\maish\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\maish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\maish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\maish\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\maish\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\maish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\maish\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\maish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\maish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\maish\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\maish\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\maish\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\maish\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\maish\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\maish\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\maish\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\maish\.m2\repository\org\apache\commons\commons-lang3\3.0\commons-lang3-3.0.jar;C:\Users\maish\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\maish\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Users\maish\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Users\maish\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\maish\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\maish\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\maish\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\maish\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\maish\.m2\repository\io\rest-assured\rest-assured\4.1.2\rest-assured-4.1.2.jar;C:\Users\maish\.m2\repository\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;C:\Users\maish\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;C:\Users\maish\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\maish\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\maish\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\maish\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\maish\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\maish\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\maish\.m2\repository\io\rest-assured\json-path\4.1.2\json-path-4.1.2.jar;C:\Users\maish\.m2\repository\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;C:\Users\maish\.m2\repository\io\rest-assured\rest-assured-common\4.1.2\rest-assured-common-4.1.2.jar;C:\Users\maish\.m2\repository\io\rest-assured\xml-path\4.1.2\xml-path-4.1.2.jar;C:\Users\maish\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\maish\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\maish\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\maish\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\maish\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\maish\.m2\repository\mysql\mysql-connector-java\8.0.13\mysql-connector-java-8.0.13.jar;C:\Users\maish\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\maish\AppData\Local\Temp\surefire4746950893890539068\surefirebooter7609426063211163981.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\maish\AppData\Local\Temp\surefire17330464022361458486\surefirebooter6416329230982006864.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.6+8-LTS"/>
@@ -61,125 +61,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="clickOnBurgerIcon" classname="testhomepage.HomepageTest" time="0.227"/>
-  <testcase name="grubStreetTab" classname="testhomepage.HomepageTest" time="0.242"/>
-  <testcase name="intelligencerTabs" classname="testhomepage.HomepageTest" time="0.126"/>
-  <testcase name="strategistTab" classname="testhomepage.HomepageTest" time="0.197"/>
-  <testcase name="theCutTabs" classname="testhomepage.HomepageTest" time="0.148"/>
-  <testcase name="vultureTabs" classname="testhomepage.HomepageTest" time="0.256"/>
-  <testcase name="burgerIconHover" classname="testhomepage.HomepageTest2" time="0.032"/>
-  <testcase name="grubStreetHover" classname="testhomepage.HomepageTest2" time="0.019"/>
-  <testcase name="intelligencerHover" classname="testhomepage.HomepageTest2" time="0.082"/>
-  <testcase name="strategistHover" classname="testhomepage.HomepageTest2" time="0.024"/>
-  <testcase name="theCutHover" classname="testhomepage.HomepageTest2" time="0.026"/>
-  <testcase name="vultureHover" classname="testhomepage.HomepageTest2" time="0.028"/>
-  <testcase name="testThatSubscribeBtnWorks" classname="testsignup.SignUpTest" time="4.116"/>
-  <testcase name="testThatUserCanSignInWithValidCredentials" classname="testsignup.SignUpTest" time="3.101"/>
-  <testcase name="testThatUserCannotSignInWithInvalidCredentials" classname="testsignup.SignUpTest" time="4.349"/>
-  <testcase name="testThatUserCannotSignInWithoutEmail" classname="testsignup.SignUpTest" time="2.373"/>
-  <testcase name="testThatUserCannotSignInWithoutPassword" classname="testsignup.SignUpTest" time="2.291"/>
-  <testcase name="testThatYouCanSignUpWithValidEmail" classname="testsignup.SignUpTest" time="0.399"/>
-  <testcase name="testThatYouCannotSignUpWithAnInvalidEmail" classname="testsignup.SignUpTest" time="0.326"/>
-  <testcase name="testClickOnBusiness" classname="testdropdownmenu.DropDownMenuTest" time="12.938"/>
-  <testcase name="testClickOnIdeas" classname="testdropdownmenu.DropDownMenuTest" time="12.301"/>
-  <testcase name="testClickOnIntelligencer" classname="testdropdownmenu.DropDownMenuTest" time="12.061"/>
-  <testcase name="testClickOnPolitics" classname="testdropdownmenu.DropDownMenuTest" time="12.722"/>
-  <testcase name="testClickOnTechnology" classname="testdropdownmenu.DropDownMenuTest" time="12.372"/>
-  <testcase name="testGetTextFromDropDownMenu" classname="testdropdownmenu.DropDownMenuTest" time="0.287"/>
-  <testcase name="testThatSearchBarWorks" classname="testdropdownmenu.DropDownMenuTest" time="0.429"/>
-  <testcase name="testThatYouCanClearSearchBar" classname="testdropdownmenu.DropDownMenuTest" time="0.364"/>
-  <testcase name="testThatYouCannotSearchWithEmptyField" classname="testdropdownmenu.DropDownMenuTest" time="0.731"/>
-  <testcase name="testClickOnArt" classname="testdropdownmenu.TestDropDown" time="12.126"/>
-  <testcase name="testClickOnBooks" classname="testdropdownmenu.TestDropDown" time="14.295"/>
-  <testcase name="testClickOnComedy" classname="testdropdownmenu.TestDropDown" time="13.033"/>
-  <testcase name="testClickOnCulture" classname="testdropdownmenu.TestDropDown" time="12.465"/>
-  <testcase name="testClickOnDesignHunting" classname="testdropdownmenu.TestDropDown" time="12.264"/>
-  <testcase name="testClickOnElectronics" classname="testdropdownmenu.TestDropDown" time="11.783"/>
-  <testcase name="testClickOnFitness" classname="testdropdownmenu.TestDropDown" time="12.93"/>
-  <testcase name="testClickOnKids" classname="testdropdownmenu.TestDropDown" time="12.161"/>
-  <testcase name="testClickOnMovies" classname="testdropdownmenu.TestDropDown" time="12.731"/>
-  <testcase name="testClickOnMusic" classname="testdropdownmenu.TestDropDown" time="12.196"/>
-  <testcase name="testClickOnPower" classname="testdropdownmenu.TestDropDown" time="12.404"/>
-  <testcase name="testClickOnSelf" classname="testdropdownmenu.TestDropDown" time="12.354"/>
-  <testcase name="testClickOnStream" classname="testdropdownmenu.TestDropDown" time="12.196"/>
-  <testcase name="testClickOnStyle" classname="testdropdownmenu.TestDropDown" time="12.665"/>
-  <testcase name="testClickOnTV" classname="testdropdownmenu.TestDropDown" time="12.362"/>
-  <testcase name="testClickOnTheater" classname="testdropdownmenu.TestDropDown" time="11.042"/>
-  <testcase name="testClickOnTravel" classname="testdropdownmenu.TestDropDown" time="13.248"/>
-  <testcase name="testClickOnWeddings" classname="testdropdownmenu.TestDropDown" time="11.124"/>
-  <testcase name="testClickOnBeauty" classname="testdropdownmenu.TestDropDown2" time="12.086"/>
-  <testcase name="testClickOnCulture" classname="testdropdownmenu.TestDropDown2" time="12.885"/>
-  <testcase name="testClickOnDesignHunting" classname="testdropdownmenu.TestDropDown2" time="12.365"/>
-  <testcase name="testClickOnDining" classname="testdropdownmenu.TestDropDown2" time="11.959"/>
-  <testcase name="testClickOnElectronics" classname="testdropdownmenu.TestDropDown2" time="13.185"/>
-  <testcase name="testClickOnFashion" classname="testdropdownmenu.TestDropDown2" time="12.553"/>
-  <testcase name="testClickOnFitness" classname="testdropdownmenu.TestDropDown2" time="12.582"/>
-  <testcase name="testClickOnGiftGuides" classname="testdropdownmenu.TestDropDown2" time="16.749"/>
-  <testcase name="testClickOnHome" classname="testdropdownmenu.TestDropDown2" time="12.188"/>
-  <testcase name="testClickOnKids" classname="testdropdownmenu.TestDropDown2" time="15.26"/>
-  <testcase name="testClickOnPower" classname="testdropdownmenu.TestDropDown2" time="12.873"/>
-  <testcase name="testClickOnRestaurantsAndBars" classname="testdropdownmenu.TestDropDown2" time="12.326"/>
-  <testcase name="testClickOnSales" classname="testdropdownmenu.TestDropDown2" time="12.492"/>
-  <testcase name="testClickOnTV" classname="testdropdownmenu.TestDropDown2" time="12.848"/>
-  <testcase name="testClickOnThousandBest" classname="testdropdownmenu.TestDropDown2" time="12.301"/>
-  <testcase name="testClickOnTravel" classname="testdropdownmenu.TestDropDown2" time="14.733"/>
-  <testcase name="testClickOnWeddings" classname="testdropdownmenu.TestDropDown2" time="11.591"/>
-  <testcase name="testClickOnAbout" classname="testdropdownmenu.TestDropDown3" time="15.147"/>
-  <testcase name="testClickOnBestDoctors" classname="testdropdownmenu.TestDropDown3" time="11.989"/>
-  <testcase name="testClickOnBestOfNewYork" classname="testdropdownmenu.TestDropDown3" time="12.084"/>
-  <testcase name="testClickOnCrossword" classname="testdropdownmenu.TestDropDown3" time="14.079"/>
-  <testcase name="testClickOnCurrentIssue" classname="testdropdownmenu.TestDropDown3" time="14.252"/>
-  <testcase name="testClickOnGiftSubscription" classname="testdropdownmenu.TestDropDown3" time="13.631"/>
-  <testcase name="testClickOnLegalLeaders" classname="testdropdownmenu.TestDropDown3" time="12.997"/>
-  <testcase name="testClickOnNewsletters" classname="testdropdownmenu.TestDropDown3" time="11.981"/>
-  <testcase name="testClickOnTheUrbanist" classname="testdropdownmenu.TestDropDown3" time="11.965"/>
-  <testcase name="testClickOnVideos" classname="testdropdownmenu.TestDropDown3" time="12.434"/>
-  <testcase name="testClickOnNotAGift" classname="testgiftsubscriptions.TestGiftSubscription" time="23.291"/>
-  <testcase name="testSubscribeToMagazineViaNotAGift" classname="testgiftsubscriptions.TestGiftSubscription" time="39.646"/>
-  <testcase name="ArtIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.149"/>
-  <testcase name="BeautyIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.182"/>
-  <testcase name="BooksIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.128"/>
-  <testcase name="BusinessIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.171"/>
-  <testcase name="ComedyIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.162"/>
-  <testcase name="CultureIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.125"/>
-  <testcase name="DesignIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.163"/>
-  <testcase name="DiningIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.156"/>
-  <testcase name="ElectronicsIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.127"/>
-  <testcase name="FashionIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.219"/>
-  <testcase name="FitnessIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.187"/>
-  <testcase name="GiftGuidesIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.177"/>
-  <testcase name="HomeIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.215"/>
-  <testcase name="IdeasIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.113"/>
-  <testcase name="KidsIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.152"/>
-  <testcase name="MoviesIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.166"/>
-  <testcase name="MusicIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.141"/>
-  <testcase name="PoliticsIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.241"/>
-  <testcase name="PowerIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.271"/>
-  <testcase name="RestaurantAndBarsIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.12"/>
-  <testcase name="SalesIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.131"/>
-  <testcase name="SelfIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.444"/>
-  <testcase name="StreamIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.167"/>
-  <testcase name="StyleIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.612"/>
-  <testcase name="TVIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.205"/>
-  <testcase name="TechnologyIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.113"/>
-  <testcase name="TheaterIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.185"/>
-  <testcase name="ThousandBestIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.119"/>
-  <testcase name="TravelIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.124"/>
-  <testcase name="WeddingsIconHover" classname="testdropdownmenu.TestDropDownMenu" time="0.117"/>
-  <testcase name="AboutIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.127"/>
-  <testcase name="BestDoctorsIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.327"/>
-  <testcase name="BestOfNYIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.219"/>
-  <testcase name="CrosswordIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.245"/>
-  <testcase name="CurrentIssueIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.111"/>
-  <testcase name="GiftGuidesIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.124"/>
-  <testcase name="GiftSubscriptionIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.424"/>
-  <testcase name="LegalLeadersIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.114"/>
-  <testcase name="NewslettersIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.115"/>
-  <testcase name="RestaurantAndBarsIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.178"/>
-  <testcase name="SalesIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.181"/>
-  <testcase name="StreamIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.843"/>
-  <testcase name="TheUrbanistIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.176"/>
-  <testcase name="ThousandBestIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.505"/>
-  <testcase name="VideosIconHover" classname="testdropdownmenu.TestDropDownMenuContinued" time="0.242"/>
-  <testcase name="testKeyWord" classname="keywordtests.TestKeyword" time="1.389"/>
+  <testcase name="testThatSubscribeBtnWorks" classname="testsignup.SignUpTest" time="3.045"/>
+  <testcase name="testThatUserCanSignInWithValidCredentials" classname="testsignup.SignUpTest" time="2.297"/>
+  <testcase name="testThatUserCannotSignInWithInvalidCredentials" classname="testsignup.SignUpTest" time="2.742"/>
+  <testcase name="testThatUserCannotSignInWithoutEmail" classname="testsignup.SignUpTest" time="2.201"/>
+  <testcase name="testThatUserCannotSignInWithoutPassword" classname="testsignup.SignUpTest" time="2.386"/>
 </testsuite>
