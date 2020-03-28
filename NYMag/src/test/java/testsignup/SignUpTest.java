@@ -8,22 +8,6 @@ import reporting.TestLogger;
 public class SignUpTest extends NYMagSignUp
 {
     @Test
-    public void testThatYouCannotSignUpWithAnInvalidEmail()
-    {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        NYMagSignUp signUp = PageFactory.initElements(driver, NYMagSignUp.class);
-        signUp.typeEmailName("pnt.com");
-        signUp.clickOnSubmit();
-    }
-    @Test
-    public void testThatYouCanSignUpWithValidEmail()
-    {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        NYMagSignUp signUp = PageFactory.initElements(driver, NYMagSignUp.class);
-        signUp.typeEmailName("tom@pnt.com");
-        signUp.clickOnSubmit();
-    }
-    @Test
     public void testThatSubscribeBtnWorks()
     {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

@@ -42,41 +42,41 @@ public class YouTubeTest1 extends YouTubeHomePage {
     }
     //----------------------------------------------------------------------------------------
 
-    @Test
-    public void hamburgerHover(){
-        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
-        element.hoverOnHamburger();
-    }
-
-    @Test
-    public void homeIconHover(){
-        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
-        element.hoverOnHomeIcon();
-    }
-
-    @Test
-    public void trendingHover(){
-        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
-        element.hoverOnTrending();
-    }
-
-    @Test
-    public void subscriptionsHover(){
-        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
-        element.hoverOnSubscriptions();
-    }
-
-    @Test
-    public void libraryHover(){
-        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
-        element.hoverOnLibrary();
-    }
-
-    @Test
-    public void historyHover(){
-        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
-        element.hoverOnHistory();
-    }
+//    @Test
+//    public void hamburgerHover(){
+//        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
+//        element.hoverOnHamburger();
+//    }
+//
+//    @Test
+//    public void homeIconHover(){
+//        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
+//        element.hoverOnHomeIcon();
+//    }
+//
+//    @Test
+//    public void trendingHover(){
+//        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
+//        element.hoverOnTrending();
+//    }
+//
+//    @Test
+//    public void subscriptionsHover(){
+//        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
+//        element.hoverOnSubscriptions();
+//    }
+//
+//    @Test
+//    public void libraryHover(){
+//        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
+//        element.hoverOnLibrary();
+//    }
+//
+//    @Test
+//    public void historyHover(){
+//        YouTubeHomePage element = PageFactory.initElements(driver, YouTubeHomePage.class);
+//        element.hoverOnHistory();
+//    }
 
 
 
